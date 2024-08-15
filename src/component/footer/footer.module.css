@@ -66,6 +66,10 @@
     width: 25px;
 }
 
+.Head{
+    font-weight: bold;
+}
+
 .copyRight{
     display: flex;
     flex-direction: column;
@@ -81,14 +85,13 @@
         flex-wrap: wrap;
         align-items: flex-start;
         font-size: 1.7rem;
-        gap: 1.6rem;
+        gap: 2rem;
     }
     
 }
 @media screen and (max-width:640px) {
 
     .cFooter{
-        
         justify-content:center;
     }
 

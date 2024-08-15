@@ -15,7 +15,7 @@ const footer = () => {
 
               <div className={css.block}>
                     <div className={css.details}>
-                        <span>Contact Us</span>
+                        <span className={css.Head}>Contact Us</span>
                         <span className={css.pngLine}>
                             <LocationMarkerIcon className={css.icon} />
                             <span>Gurgaon</span>
@@ -35,7 +35,7 @@ const footer = () => {
 
               <div className={css.block}>
                     <div className={css.details}>
-                        <span>Account</span>
+                        <span className={css.Head}>Account</span>
                         <span className={css.pngLine}>
                             <LoginIcon className={css.icon} />
                             <span>Sign In</span>
@@ -45,7 +45,7 @@ const footer = () => {
 
               <div className={css.block}>
                     <div className={css.details}>
-                        <span>Company</span>
+                        <span className={css.Head}>Company</span>
                         <span className={css.pngLine}>
                             <UsersIcon className={css.icon} />
                             <span>About Us</span>
@@ -55,7 +55,7 @@ const footer = () => {
 
               <div className={css.block}>
                     <div className={css.details}>
-                        <span>Resources</span>
+                        <span className={css.Head}>Resources</span>
                         <span className={css.pngLine}>
                             <LinkIcon className={css.icon} />
                             <span>Safety Privacy & Terms</span>
