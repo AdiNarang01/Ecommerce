@@ -25,7 +25,9 @@ const Testimonial = () => {
         <div className={css.review}>Reviews</div>
 
         <div className={css.carousel}>
-            <Swiper slidesPerView={3} slidesPerGroup={1} spaceBetween={20} 
+            <Swiper slidesPerView={3} slidesPerGroup={1} spaceBetween={20} breakpoints={{
+                856: {slidesPerView: 3},640: {slidesPerView: 2},0: {slidesPerView: 1}
+            }}
             className={css.tC}>
             {
                 TestimonialsData.map( (testimonial,i)=> (

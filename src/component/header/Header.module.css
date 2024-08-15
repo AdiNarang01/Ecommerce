@@ -51,8 +51,21 @@
     width: 1.5rem;
     height: 1.5rem;
 }
+.bars{
+    display: none;
+}
 
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 856px) {
+    .search{
+        display: none;
+    }
+    .right{
+        gap: 1rem;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    
     .right{
         position: absolute;
         right: 2rem;
@@ -66,15 +79,16 @@
 
     .menu{
         flex-direction: column;
-        margin-left: -2rem;
+        margin-left: -2.2rem;
+        align-items: center;
         display: none;
     }
 
-    .bar{
+    .bars{
         display: block;
     }
 
     .search{
         display: none;
     }
-} */
+}
