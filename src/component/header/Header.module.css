@@ -77,11 +77,14 @@
         padding: 1rem;
     }
 
-    .menu{
+    .menures{
         flex-direction: column;
         margin-left: -2.2rem;
         align-items: center;
         display: none;
+        gap: 2rem;
+        font-weight: 500;
+        list-style: none;
     }
 
     .bars{
@@ -89,6 +92,10 @@
     }
 
     .search{
+        display: none;
+    }
+
+    .menu{
         display: none;
     }
 }

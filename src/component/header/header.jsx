@@ -23,7 +23,15 @@ const Header = () => {
 
         <div className={css.bars} onClick={toggleMenu}><GiHamburgerMenu /></div>
 
-                <ul className={css.menu} style={{display: ShowMenu? 'inherit' : 'none'}}>
+                <ul className={css.menu}>
+                    <li>Collections</li>
+                    <li>Brands</li>
+                    <li>New</li>
+                    <li>Sales</li>
+                    <li>ENG</li>
+                </ul>
+
+                <ul className={css.menures} style={{display: ShowMenu? 'inherit' : 'none'}}>
                     <li>Collections</li>
                     <li>Brands</li>
                     <li>New</li>
